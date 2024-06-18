@@ -8,7 +8,7 @@ const Menu = () => {
       <ul className="flex items-center gap-4">
         <li>
           <a
-            className="hover:text-gray-900 border-black hover:border-b-4"
+            className="hover:text-gray-900 relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             href="#home"
           >
             Home
@@ -16,7 +16,7 @@ const Menu = () => {
         </li>
         <li>
           <a
-            className="hover:text-gray-900 border-black hover:border-b-4"
+            className="hover:text-gray-900 relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             href="#about"
           >
             About Us
@@ -24,7 +24,7 @@ const Menu = () => {
         </li>
         <li>
           <a
-            className="hover:text-gray-900 border-black hover:border-b-4"
+            className="hover:text-gray-900 relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             href="#products"
           >
             Our Products
@@ -32,7 +32,7 @@ const Menu = () => {
         </li>
         <li>
           <a
-            className="hover:text-gray-900 border-black hover:border-b-4"
+            className="hover:text-gray-900 relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             href="#contact"
           >
             Contact Us
