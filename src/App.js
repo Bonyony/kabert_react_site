@@ -1,10 +1,11 @@
-import "./App.css";
 import React from "react";
+import "./App.css";
+
 import { About, Contact, Hero, Products, Header, Footer } from "./components";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className="App text-gray-700">
       <Header />
       <Hero />
       <About />
@@ -13,6 +14,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
