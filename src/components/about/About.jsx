@@ -3,7 +3,10 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="kabert__about flex m-8 bg-stone-100" id="about">
+    <div
+      className="kabert__about text-gray-700 flex m-8 bg-stone-100"
+      id="about"
+    >
       <div className="kabert__about-blurb1">
         <h1 className="text-5xl">Quality and Experience</h1>
         <p>

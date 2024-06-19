@@ -5,7 +5,7 @@ import { About, Contact, Hero, Products, Header, Footer } from "./components";
 
 const App = () => {
   return (
-    <div className="App text-gray-700">
+    <div className="App">
       <Header />
       <Hero />
       <About />

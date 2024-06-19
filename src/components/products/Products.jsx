@@ -3,8 +3,10 @@ import "./products.css";
 
 const Products = () => {
   return (
-    <div className="kabert__products" id="products">
-      <h1 className="text-6xl">High-quality Products</h1>
+    <div className="kabert__products m-6 text-gray-700" id="products">
+      <h1 className="text-6xl font-bold py-4 m-5 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
+        High-quality Products
+      </h1>
       <div className="kabert__products-container">
         <div className="kabert__products-fiberglass">
           <h4 className="text-4xl">Fiberglass Cloth</h4>

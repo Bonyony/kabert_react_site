@@ -45,7 +45,7 @@ const Menu = () => {
 
 const Header = () => {
   return (
-    <div className="kabert__header font-bold rounded-b-3xl">
+    <div className="kabert__header text-gray-700 font-bold rounded-b-3xl">
       <div className="kabert__links-container flex justify-between items-center p-5 mx-auto">
         <div className="kabert__logo text-2xl">
           {/* Place a logo here that animates to the Kabert Industries name */}

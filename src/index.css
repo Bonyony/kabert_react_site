@@ -7,6 +7,8 @@
 :root {
   --font-family: "Roboto", sans-serif;
 
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+
   --gradient: linear-gradient(
     165deg,
     rgb(254, 255, 254) 0%,
