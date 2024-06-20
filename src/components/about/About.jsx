@@ -4,7 +4,7 @@ import "./about.css";
 const About = () => {
   return (
     <div
-      className="kabert__about text-gray-700 flex-column my-8 mx-4 p-6 rounded-3xl shadow-lg shadow-emerald-900"
+      className="kabert__about text-gray-700 flex-column my-8 mx-4  p-6 rounded-3xl shadow-lg shadow-emerald-900"
       id="about"
     >
       <div className="kabert__about-blurb1 flex">
@@ -20,6 +20,9 @@ const About = () => {
         </p>
       </div>
       <div className="kabert__about-image">
+        <div className="placeholder my-4 h-44 bg-slate-400 text-center rounded-lg">
+          Placeholder for Image
+        </div>
         <img src="" alt="" />
       </div>
       <div className="kabert__about-blurb2 flex">

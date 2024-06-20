@@ -4,7 +4,7 @@ import "./products.css";
 const Products = () => {
   return (
     <div className="kabert__products m-6 text-gray-700" id="products">
-      <h1 className="text-6xl font-bold py-4 m-5 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
+      <h1 className="text-6xl font-bold py-4 m-5 mt-16 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
         High-quality Products
       </h1>
       <div className="kabert__products-container">
