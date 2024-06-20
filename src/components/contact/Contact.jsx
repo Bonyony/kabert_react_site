@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="kabert__contact m-6 text-gray-700" id="contact">
       <div className="kabert__contact-deatil">
-        <h1 className="text-6xl font-bold py-4 m-5  bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text">
+        <h1 className="text-6xl text-center font-bold py-4 m-5  bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text">
           Contact Us
         </h1>
       </div>
