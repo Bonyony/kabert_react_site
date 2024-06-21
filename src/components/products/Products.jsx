@@ -30,7 +30,45 @@ const Products = () => {
             </p>
           </div>
         </div>
-        <div className="kabert__products-groupB ml-1 grid grid-cols-2">
+        <div className="kabert__products-groupB ml-1 grid grid-cols-2 content-stretch">
+          <div className="kabert__products-vacuum m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
+            <h4 className="text-4xl font-bold">Vacuum Formed Shapes</h4>
+            <p>
+              <br />
+              Kabert Industries vacuum formed shapes are produced by dewatering
+              a slurry of Fiberfrax Bulk Ceramic Fibers and special high
+              temperature binders. This manufacturing method permits
+              considerable freedom to vary shape, thickness, density and
+              hardness. Often the vacuum casting technique provides the most
+              economical answer to producing large quantities of parts in simple
+              or complex configurations. <br /> <br />
+              Our vacuum formed shapes resist attack from the most corrosive
+              agents. Exceptions are hydrofluoric and phosphoric acids and
+              concentrated alkalies. Vacuum cast parts also resist oxidation and
+              reduction. If wet by water or steam, thermal and physical
+              properties are completely restored upon drying. No water of
+              hydration is present. <br /> <br />
+            </p>
+            {/* There will need to be tables and lists for the rest of the information provided here */}
+          </div>
+          <div className="kabert__products-bags m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
+            <h4 className="text-4xl font-bold">Mini Channel Bag</h4>
+            <p>
+              <br />
+              An inexpensive and effective method of distributing molten
+              aluminum to appropriate areas of the mold. Kabert Industries mini
+              channel bags have been successfully used since 1980 in all alloys
+              including body and lid. <br /> <br />
+              The closeweave outer jacket distributes hot metal away from the
+              center to the ends of the mold reducing the possibility of a
+              dished butt crack at the start of a cast. The open weave lessens
+              the possibility of build-up inside the bag during casting. Easier
+              to install and remove. Standard designs in stock. Any size or
+              style manufactured to specification. Special hangers can be
+              installed in trough.
+            </p>
+            {/* There will need to be tables and lists for the rest of the information provided here */}
+          </div>
           <div className="kabert__products-gaskets m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
             <h4 className="text-4xl font-bold">Gaskets</h4>
             <p>
@@ -47,31 +85,7 @@ const Products = () => {
               <strong>Thickness</strong>: 1/2", 3/4", or 1"
             </p>
           </div>
-          <div className="kabert__products-vacuum m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
-            <h4 className="text-4xl font-bold">Vacuum Formed Shapes</h4>
-            <p>
-              <br />
-              Kabert Industries vacuum formed shapes are produced by dewatering
-              a slurry of Fiberfrax Bulk Ceramic Fibers and special high
-              temperature binders. This manufacturing method permits
-              considerable freedom to vary shape, thickness, density and
-              hardness. Often the vacuum casting technique provides the most
-              economical answer to producing large quantities of parts in simple
-              or complex configurations.{" "}
-            </p>
-            {/* There will need to be tables and lists for the rest of the information provided here */}
-          </div>
-          <div className="kabert__products-bags m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
-            <h4 className="text-4xl font-bold">Mini Channel Bag</h4>
-            <p>
-              <br />
-              An inexpensive and effective method of distributing molten
-              aluminum to appropriate areas of the mold. Kabert Industries mini
-              channel bags have been successfully used since 1980 in all alloys
-              including body and lid.
-            </p>
-            {/* There will need to be tables and lists for the rest of the information provided here */}
-          </div>
+
           <div className="kabert__products-image m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
             <div className="placeholder bg-slate-400 text-center">
               Placeholder for Image
@@ -102,7 +116,7 @@ const Products = () => {
             </tr>
           </thead>
           <tbody className=" text-center">
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-2433</td>
               <td>0.03</td>
               <td>0.033</td>
@@ -111,7 +125,7 @@ const Products = () => {
               <td>0.00182</td>
               <td>33.1</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-2403</td>
               <td>0.03</td>
               <td>0.033</td>
@@ -120,7 +134,7 @@ const Products = () => {
               <td>0.00273</td>
               <td>39.1</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-2383</td>
               <td>0.03</td>
               <td>0.033</td>
@@ -129,7 +143,7 @@ const Products = () => {
               <td>0.00469</td>
               <td>46.9</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-2373</td>
               <td>0.033</td>
               <td>0.035</td>
@@ -138,7 +152,7 @@ const Products = () => {
               <td>0.00595</td>
               <td>48.2</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-2363</td>
               <td>0.033</td>
               <td>0.035</td>
@@ -147,7 +161,7 @@ const Products = () => {
               <td>0.00828</td>
               <td>53</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-2353</td>
               <td>0.033</td>
               <td>0.035</td>
@@ -156,7 +170,7 @@ const Products = () => {
               <td>0.01185</td>
               <td>58.1</td>
             </tr>
-            <tr>
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-2384</td>
               <td>0.032</td>
               <td>0.035</td>
@@ -165,7 +179,7 @@ const Products = () => {
               <td>0.00442</td>
               <td>44.2</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-2374</td>
               <td>0.033</td>
               <td>0.035</td>
@@ -174,7 +188,7 @@ const Products = () => {
               <td>0.00595</td>
               <td>48.2</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-2366</td>
               <td>0.045</td>
               <td>0.045</td>
@@ -183,7 +197,7 @@ const Products = () => {
               <td>0.0064</td>
               <td>41</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-1590</td>
               <td>0.04</td>
               <td>0.035</td>
@@ -192,7 +206,7 @@ const Products = () => {
               <td>0.0264</td>
               <td>66</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-1553</td>
               <td>0.0021</td>
               <td>0.025</td>
@@ -201,7 +215,7 @@ const Products = () => {
               <td>0.00128</td>
               <td>37</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-1593</td>
               <td>0.0021</td>
               <td>0.025</td>
@@ -210,7 +224,7 @@ const Products = () => {
               <td>0.00089</td>
               <td>31.9</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-1613</td>
               <td>0.0021</td>
               <td>0.025</td>
@@ -219,7 +233,7 @@ const Products = () => {
               <td>0.00073</td>
               <td>29</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-1653</td>
               <td>0.0021</td>
               <td>0.025</td>
@@ -228,7 +242,7 @@ const Products = () => {
               <td>0.00061</td>
               <td>26.9</td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-7628</td>
               <td></td>
               <td>0.007</td>
@@ -237,7 +251,7 @@ const Products = () => {
               <td></td>
               <td></td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-3434</td>
               <td></td>
               <td>0.012</td>
@@ -246,7 +260,7 @@ const Products = () => {
               <td></td>
               <td></td>
             </tr>
-            <tr className="odd:bg-white even:bg-slate-50">
+            <tr className="odd:bg-white even:bg-slate-200">
               <td>KI-3712220</td>
               <td></td>
               <td>0.025</td>

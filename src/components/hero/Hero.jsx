@@ -3,7 +3,7 @@ import "./hero.css";
 
 const Hero = () => {
   return (
-    <div className="kabert__hero text-gray-700 mt-24">
+    <div className="kabert__hero text-gray-700 pt-24" id="home">
       <div className="placeholder my-4 h-96 w-auto bg-slate-400 text-center">
         Placeholder for Image <br />
         The text below will be overlayed onto the image(s)
