@@ -1,1 +1,9 @@
+.kabert__products-fiberglass {
+  background: var(--gradient3);
+}
 
+.kabert__products-gaskets,
+.kabert__products-vacuum,
+.kabert__products-bags {
+  background: var(--gradient3);
+}
