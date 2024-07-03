@@ -3,13 +3,16 @@ import "./products.css";
 
 const Products = () => {
   return (
-    <div className="kabert__products m-6 text-gray-700" id="products">
+    <div
+      className="kabert__products p-6 bg-gradient-to-b from-white to-stone-100 text-gray-700"
+      id="products"
+    >
       <h1 className="text-6xl font-bold py-4 m-5 mt-16 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
         High-quality Products
       </h1>
       <div className="kabert__products-container flex-row flex">
         <div className="kabert__products-groupA ">
-          <div className="kabert__products-fiberglass p-6 rounded-3xl bg-gray-50  shadow-md shadow-emerald-900">
+          <div className="kabert__products-fiberglass p-6 rounded-3xl bg-gray-100  shadow-md shadow-emerald-900">
             <h4 className="text-4xl font-bold">Fiberglass Cloth</h4>
             <p>
               <br />
@@ -99,7 +102,7 @@ const Products = () => {
       <div className="kabert__products-table flex items-center justify-center">
         {/* Put this in an expandable thing, may not even be added as it is very confusing */}
 
-        <table class="table-fixed mt-10 border border-slate-300">
+        <table className="table-fixed mt-10 border border-slate-300">
           <thead>
             <tr className="odd:bg-white even:bg-slate-50">
               <th className="border border-slate-300 px-2">Style Number</th>

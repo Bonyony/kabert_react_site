@@ -3,7 +3,10 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <div className="kabert__contact pt-12 mb-6 text-gray-700" id="contact">
+    <div
+      className="kabert__contact pt-12 mb-6 bg-stone-100 text-gray-700"
+      id="contact"
+    >
       <div className="kabert__contact-deatil">
         <h1 className="text-6xl text-center font-bold py-4 m-5  bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text">
           Contact Us
