@@ -5,13 +5,13 @@ import stockImage from "../../images/pexels-bertoli-21764787.jpg";
 const About = () => {
   return (
     <div className="pt-16 bg-gradient-to-b from-stone-100 to-white" id="about">
-      <div className="kabert__about text-gray-700 flex-column my-8 mx-8  p-6 rounded-3xl shadow-lg shadow-emerald-900">
+      <div className="kabert__about text-gray-700 flex-column my-8 mx-24  p-6 rounded-3xl shadow-lg shadow-emerald-900">
         <div className="kabert__about-blurb1 flex">
           <h1 className="text-5xl font-bold text-emerald-800 m-2 basis-1/3">
             Quality and Experience
             <div className="bg-emerald-600 h-2 w-72"></div>
           </h1>
-          <p className="text-xl text-slate-600 basis-2/3">
+          <p className="text-xl text-slate-800 basis-2/3">
             Since 1960, Kabert Industries Inc. has been furnishing the aluminum
             industry with quality casting supplies. We continually strives to
             provide its customers with exceptional service. Our experienced
@@ -29,12 +29,12 @@ const About = () => {
             alt="nothing here"
           />
         </div>
-        <div className="kabert__about-blurb2 flex">
+        <div className="kabert__about-blurb2 flex flex-row-reverse">
           <h1 className="text-5xl font-bold text-emerald-800 m-2 basis-1/3">
-            What We Do
-            <div className="bg-emerald-600 h-2 w-72"></div>
+            It's What <br /> We Do
+            <div className="bg-emerald-600 h-2 w-52"></div>
           </h1>
-          <p className="text-xl text-slate-600 basis-2/3">
+          <p className="text-xl text-slate-800 basis-2/3">
             High-twist fiberglass cloth is woven, cut and sewn at our plant
             specifically for aluminum distribution and filtration. Other
             products available include gaskets, vacuum formed shapes, and

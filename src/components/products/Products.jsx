@@ -1,6 +1,183 @@
 import React from "react";
 import "./products.css";
 
+const Table = () => {
+  return (
+    <>
+      <table className="table-fixed mt-10 border border-slate-300">
+        <thead>
+          <tr className="odd:bg-white even:bg-slate-50">
+            <th className="border border-slate-300 px-2">Style Number</th>
+            <th className="border border-slate-300 px-2">Strand Warp</th>
+            <th className="border border-slate-300 px-2">Diameter Fill</th>
+            <th className="border border-slate-300 px-2">Strand Count</th>
+            <th className="border border-slate-300 px-2">
+              Holes per Square Inch
+            </th>
+            <th className="border border-slate-300 px-2">Hole Size</th>
+            <th className="border border-slate-300 px-2">Percent Open Area</th>
+          </tr>
+        </thead>
+        <tbody className=" text-center">
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-2433</td>
+            <td>0.03</td>
+            <td>0.033</td>
+            <td>14 x 13</td>
+            <td>182</td>
+            <td>0.00182</td>
+            <td>33.1</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-2403</td>
+            <td>0.03</td>
+            <td>0.033</td>
+            <td>12 x 12</td>
+            <td>144</td>
+            <td>0.00273</td>
+            <td>39.1</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-2383</td>
+            <td>0.03</td>
+            <td>0.033</td>
+            <td>10 x 10</td>
+            <td>100</td>
+            <td>0.00469</td>
+            <td>46.9</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-2373</td>
+            <td>0.033</td>
+            <td>0.035</td>
+            <td>9 x 9</td>
+            <td>81</td>
+            <td>0.00595</td>
+            <td>48.2</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-2363</td>
+            <td>0.033</td>
+            <td>0.035</td>
+            <td>8 x 8</td>
+            <td>64</td>
+            <td>0.00828</td>
+            <td>53</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-2353</td>
+            <td>0.033</td>
+            <td>0.035</td>
+            <td>7 x 7</td>
+            <td>49</td>
+            <td>0.01185</td>
+            <td>58.1</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-2384</td>
+            <td>0.032</td>
+            <td>0.035</td>
+            <td>10 x 10</td>
+            <td>100</td>
+            <td>0.00442</td>
+            <td>44.2</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-2374</td>
+            <td>0.033</td>
+            <td>0.035</td>
+            <td>9 x 9</td>
+            <td>81</td>
+            <td>0.00595</td>
+            <td>48.2</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-2366</td>
+            <td>0.045</td>
+            <td>0.045</td>
+            <td>8 x 8</td>
+            <td>64</td>
+            <td>0.0064</td>
+            <td>41</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-1590</td>
+            <td>0.04</td>
+            <td>0.035</td>
+            <td>5 x 5</td>
+            <td>25</td>
+            <td>0.0264</td>
+            <td>66</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-1553</td>
+            <td>0.0021</td>
+            <td>0.025</td>
+            <td>17 x 17</td>
+            <td>289</td>
+            <td>0.00128</td>
+            <td>37</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-1593</td>
+            <td>0.0021</td>
+            <td>0.025</td>
+            <td>20 x 18</td>
+            <td>360</td>
+            <td>0.00089</td>
+            <td>31.9</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-1613</td>
+            <td>0.0021</td>
+            <td>0.025</td>
+            <td>20 x 20</td>
+            <td>400</td>
+            <td>0.00073</td>
+            <td>29</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-1653</td>
+            <td>0.0021</td>
+            <td>0.025</td>
+            <td>20 x 22</td>
+            <td>440</td>
+            <td>0.00061</td>
+            <td>26.9</td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-7628</td>
+            <td></td>
+            <td>0.007</td>
+            <td>44 x 32</td>
+            <td>Closeweave</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-3434</td>
+            <td></td>
+            <td>0.012</td>
+            <td>34 x 34</td>
+            <td>Closeweave</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr className="odd:bg-white even:bg-slate-200">
+            <td>KI-3712220</td>
+            <td></td>
+            <td>0.025</td>
+            <td>24 x 20</td>
+            <td>Closeweave</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </>
+  );
+};
+
 const Products = () => {
   return (
     <div
@@ -10,9 +187,9 @@ const Products = () => {
       <h1 className="text-6xl font-bold py-4 m-5 mt-16 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
         High-quality Products
       </h1>
-      <div className="kabert__products-container flex-row flex">
-        <div className="kabert__products-groupA ">
-          <div className="kabert__products-fiberglass p-6 rounded-3xl bg-gray-100  shadow-md shadow-emerald-900">
+      <div className="kabert__products-container">
+        <div className="kabert__products-groupA">
+          <div className="kabert__products-fiberglass m-1 mb-2 p-4  bg-gray-100  shadow-md shadow-emerald-900">
             <h4 className="text-4xl font-bold">Fiberglass Cloth</h4>
             <p>
               <br />
@@ -33,8 +210,8 @@ const Products = () => {
             </p>
           </div>
         </div>
-        <div className="kabert__products-groupB ml-1 grid grid-cols-2 content-stretch">
-          <div className="kabert__products-vacuum m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
+        <div className="kabert__products-groupB ">
+          <div className="kabert__products-vacuum m-1 p-4 mb-2 bg-gray-50 shadow-md shadow-emerald-900">
             <h4 className="text-4xl font-bold">Vacuum Formed Shapes</h4>
             <p>
               <br />
@@ -54,7 +231,7 @@ const Products = () => {
             </p>
             {/* There will need to be tables and lists for the rest of the information provided here */}
           </div>
-          <div className="kabert__products-bags m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
+          <div className="kabert__products-bags m-1 p-4 mb-2 bg-gray-50 shadow-md shadow-emerald-900">
             <h4 className="text-4xl font-bold">Mini Channel Bag</h4>
             <p>
               <br />
@@ -72,7 +249,7 @@ const Products = () => {
             </p>
             {/* There will need to be tables and lists for the rest of the information provided here */}
           </div>
-          <div className="kabert__products-gaskets m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
+          <div className="kabert__products-gaskets m-1 p-4 mb-2 bg-gray-50 shadow-md shadow-emerald-900">
             <h4 className="text-4xl font-bold">Gaskets</h4>
             <p>
               <br />
@@ -88,12 +265,6 @@ const Products = () => {
               <strong>Thickness</strong>: 1/2", 3/4", or 1"
             </p>
           </div>
-
-          <div className="kabert__products-image m-1 p-4 rounded-2xl bg-gray-50 shadow-md shadow-emerald-900">
-            <div className="placeholder bg-slate-400 text-center">
-              Placeholder for Image
-            </div>
-          </div>
         </div>
       </div>
       <h1 className="bg-gradient-to-r from-slate-700 to-emerald-500 text-transparent bg-clip-text text-5xl font-bold text-center mt-12 pb-3">
@@ -101,179 +272,7 @@ const Products = () => {
       </h1>
       <div className="kabert__products-table flex items-center justify-center">
         {/* Put this in an expandable thing, may not even be added as it is very confusing */}
-
-        <table className="table-fixed mt-10 border border-slate-300">
-          <thead>
-            <tr className="odd:bg-white even:bg-slate-50">
-              <th className="border border-slate-300 px-2">Style Number</th>
-              <th className="border border-slate-300 px-2">Strand Warp</th>
-              <th className="border border-slate-300 px-2">Diameter Fill</th>
-              <th className="border border-slate-300 px-2">Strand Count</th>
-              <th className="border border-slate-300 px-2">
-                Holes per Square Inch
-              </th>
-              <th className="border border-slate-300 px-2">Hole Size</th>
-              <th className="border border-slate-300 px-2">
-                Percent Open Area
-              </th>
-            </tr>
-          </thead>
-          <tbody className=" text-center">
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-2433</td>
-              <td>0.03</td>
-              <td>0.033</td>
-              <td>14 x 13</td>
-              <td>182</td>
-              <td>0.00182</td>
-              <td>33.1</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-2403</td>
-              <td>0.03</td>
-              <td>0.033</td>
-              <td>12 x 12</td>
-              <td>144</td>
-              <td>0.00273</td>
-              <td>39.1</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-2383</td>
-              <td>0.03</td>
-              <td>0.033</td>
-              <td>10 x 10</td>
-              <td>100</td>
-              <td>0.00469</td>
-              <td>46.9</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-2373</td>
-              <td>0.033</td>
-              <td>0.035</td>
-              <td>9 x 9</td>
-              <td>81</td>
-              <td>0.00595</td>
-              <td>48.2</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-2363</td>
-              <td>0.033</td>
-              <td>0.035</td>
-              <td>8 x 8</td>
-              <td>64</td>
-              <td>0.00828</td>
-              <td>53</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-2353</td>
-              <td>0.033</td>
-              <td>0.035</td>
-              <td>7 x 7</td>
-              <td>49</td>
-              <td>0.01185</td>
-              <td>58.1</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-2384</td>
-              <td>0.032</td>
-              <td>0.035</td>
-              <td>10 x 10</td>
-              <td>100</td>
-              <td>0.00442</td>
-              <td>44.2</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-2374</td>
-              <td>0.033</td>
-              <td>0.035</td>
-              <td>9 x 9</td>
-              <td>81</td>
-              <td>0.00595</td>
-              <td>48.2</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-2366</td>
-              <td>0.045</td>
-              <td>0.045</td>
-              <td>8 x 8</td>
-              <td>64</td>
-              <td>0.0064</td>
-              <td>41</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-1590</td>
-              <td>0.04</td>
-              <td>0.035</td>
-              <td>5 x 5</td>
-              <td>25</td>
-              <td>0.0264</td>
-              <td>66</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-1553</td>
-              <td>0.0021</td>
-              <td>0.025</td>
-              <td>17 x 17</td>
-              <td>289</td>
-              <td>0.00128</td>
-              <td>37</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-1593</td>
-              <td>0.0021</td>
-              <td>0.025</td>
-              <td>20 x 18</td>
-              <td>360</td>
-              <td>0.00089</td>
-              <td>31.9</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-1613</td>
-              <td>0.0021</td>
-              <td>0.025</td>
-              <td>20 x 20</td>
-              <td>400</td>
-              <td>0.00073</td>
-              <td>29</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-1653</td>
-              <td>0.0021</td>
-              <td>0.025</td>
-              <td>20 x 22</td>
-              <td>440</td>
-              <td>0.00061</td>
-              <td>26.9</td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-7628</td>
-              <td></td>
-              <td>0.007</td>
-              <td>44 x 32</td>
-              <td>Closeweave</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-3434</td>
-              <td></td>
-              <td>0.012</td>
-              <td>34 x 34</td>
-              <td>Closeweave</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr className="odd:bg-white even:bg-slate-200">
-              <td>KI-3712220</td>
-              <td></td>
-              <td>0.025</td>
-              <td>24 x 20</td>
-              <td>Closeweave</td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+        <Table />
       </div>
     </div>
   );
