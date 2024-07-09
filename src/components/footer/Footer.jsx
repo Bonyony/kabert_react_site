@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="kabert__footer text-gray-700">
       <img
-        className=" h-52 w-full bg-slate-400 text-center"
+        className="h-24 sm:h-32 w-full bg-slate-400 text-center"
         src={stockImage}
         alt=""
       />
