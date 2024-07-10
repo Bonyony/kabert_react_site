@@ -23,7 +23,7 @@ const About = () => {
           <img
             className="w-full h-96 object-cover placeholder my-4 bg-slate-400 rounded-xl"
             src={stockImage}
-            alt="nothing here"
+            alt="A picture of optimism"
           />
         </div>
         <div className="kabert__about-blurb2 flex flex-col lg:flex-row-reverse">

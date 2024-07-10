@@ -8,7 +8,7 @@ const Footer = () => {
       <img
         className="h-24 sm:h-32 w-full bg-slate-400 text-center"
         src={stockImage}
-        alt=""
+        alt="A background image"
       />
     </div>
   );

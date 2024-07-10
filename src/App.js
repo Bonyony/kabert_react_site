@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./App.css";
-
 import { About, Contact, Hero, Products, Header, Footer } from "./components";
 
 const App = () => {

@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="h-72 md:h-96 bg-fixed bg-left bg-gradient-to-b from-black to-gray-400 relative">
         <img
           src={kabert2}
-          alt="nothing here"
+          alt="A picture of our machines"
           className="w-full h-full z-10 object-cover object-center absolute mix-blend-overlay"
         />
         <div>

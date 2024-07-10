@@ -184,7 +184,7 @@ const Products = () => {
       className="kabert__products p-6 bg-gradient-to-b from-white to-stone-50 text-gray-700"
       id="products"
     >
-      <h1 className="text-4xl sm:text-6xl font-bold py-4 m-5 mt-16 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
+      <h1 className="text-4xl sm:text-6xl font-bold py-2 md:py-4 m-5 mt-16 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
         High-quality Products
       </h1>
       <div className="kabert__products-container">

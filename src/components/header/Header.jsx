@@ -45,7 +45,7 @@ const Menu = () => {
 
 const Header = () => {
   return (
-    <div className="kabert__header text-gray-700 z-20 font-bold rounded-b-3xl fixed top-0 w-full shadow-md">
+    <div className="kabert__header text-gray-700 z-20 font-bold fixed top-0 w-full shadow-md">
       <div className="kabert__links-container flex  sm:flex-row flex-col justify-between items-center p-2 sm:p-5 mx-auto">
         <div className="kabert__logo text-xl md:text-2xl ml-3 bg-gradient-to-r from-emerald-700 to-slate-700 text-transparent bg-clip-text">
           <h1>Kabert Industries Inc.</h1>
