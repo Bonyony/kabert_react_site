@@ -4,7 +4,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div
-      className="kabert__contact pt-12  bg-stone-100 text-gray-700"
+      className="kabert__contact pt-12  bg-stone-50 text-gray-700"
       id="contact"
     >
       <div className="kabert__contact-blurb p-6 rounded-t-3xl  shadow-emerald-900">

@@ -181,7 +181,7 @@ const Table = () => {
 const Products = () => {
   return (
     <div
-      className="kabert__products p-6 bg-gradient-to-b from-white to-stone-100 text-gray-700"
+      className="kabert__products p-6 bg-gradient-to-b from-white to-stone-50 text-gray-700"
       id="products"
     >
       <h1 className="text-4xl sm:text-6xl font-bold py-4 m-5 mt-16 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
@@ -189,7 +189,7 @@ const Products = () => {
       </h1>
       <div className="kabert__products-container">
         <div className="kabert__products-groupA">
-          <div className="kabert__products-fiberglass m-1 mb-2 p-4  bg-gray-100  shadow-md shadow-emerald-900">
+          <div className="kabert__products-fiberglass m-1 mb-4 p-4  bg-gray-100 ">
             <h4 className="text-2xl sm:text-4xl font-bold">Fiberglass Cloth</h4>
             <p className="text-sm sm:text-lg">
               <br />
@@ -211,7 +211,7 @@ const Products = () => {
           </div>
         </div>
         <div className="kabert__products-groupB ">
-          <div className="kabert__products-vacuum m-1 p-4 mb-2 bg-gray-50 shadow-md shadow-emerald-900">
+          <div className="kabert__products-vacuum m-1 p-4 mb-4 bg-gray-50">
             <h4 className="text-2xl sm:text-4xl font-bold">
               Vacuum Formed Shapes
             </h4>
@@ -233,7 +233,7 @@ const Products = () => {
             </p>
             {/* There will need to be tables and lists for the rest of the information provided here */}
           </div>
-          <div className="kabert__products-bags m-1 p-4 mb-2 bg-gray-50 shadow-md shadow-emerald-900">
+          <div className="kabert__products-bags m-1 p-4 mb-4 bg-gray-50">
             <h4 className="text-2xl sm:text-4xl font-bold">Mini Channel Bag</h4>
             <p className="text-sm sm:text-lg">
               <br />
@@ -251,7 +251,7 @@ const Products = () => {
             </p>
             {/* There will need to be tables and lists for the rest of the information provided here */}
           </div>
-          <div className="kabert__products-gaskets m-1 p-4 mb-2 bg-gray-50 shadow-md shadow-emerald-900">
+          <div className="kabert__products-gaskets m-1 p-4 mb-4 bg-gray-50">
             <h4 className="text-2xl sm:text-4xl font-bold">Gaskets</h4>
             <p className="text-sm sm:text-lg">
               <br />
@@ -272,7 +272,9 @@ const Products = () => {
       <h1 className="bg-gradient-to-r from-slate-700 to-emerald-500 text-transparent bg-clip-text text-3xl sm:text-5xl font-bold text-center mt-12 pb-3">
         Fiberglass Cloth Details
       </h1>
-      <p className="sm:hidden text-center font-thin text-sm">(Swipe to view)</p>
+      <p className="sm:hidden text-center font-thin text-sm">
+        (Swipe/scroll to view)
+      </p>
       <div className="kabert__products-table flex md:items-center md:justify-center overflow-auto ">
         <Table />
       </div>
