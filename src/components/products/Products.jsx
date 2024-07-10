@@ -4,7 +4,7 @@ import "./products.css";
 const Table = () => {
   return (
     <>
-      <table className="table-fixed mt-10 border border-slate-300">
+      <table className="table-fixed text-sm md:text-lg mt-2 md:mt-10 border border-slate-300">
         <thead>
           <tr className="odd:bg-white even:bg-slate-50">
             <th className="border border-slate-300 px-2">Style Number</th>
@@ -184,14 +184,14 @@ const Products = () => {
       className="kabert__products p-6 bg-gradient-to-b from-white to-stone-100 text-gray-700"
       id="products"
     >
-      <h1 className="text-6xl font-bold py-4 m-5 mt-16 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
+      <h1 className="text-4xl sm:text-6xl font-bold py-4 m-5 mt-16 bg-gradient-to-r from-emerald-500 to-slate-700 text-transparent bg-clip-text inline-block">
         High-quality Products
       </h1>
       <div className="kabert__products-container">
         <div className="kabert__products-groupA">
           <div className="kabert__products-fiberglass m-1 mb-2 p-4  bg-gray-100  shadow-md shadow-emerald-900">
-            <h4 className="text-4xl font-bold">Fiberglass Cloth</h4>
-            <p>
+            <h4 className="text-2xl sm:text-4xl font-bold">Fiberglass Cloth</h4>
+            <p className="text-sm sm:text-lg">
               <br />
               Since 1979 Kabert Industries has been weaving fiberglass cloth in
               Lynn, Indiana for the aluminum industry. Fiberglass cloth is an
@@ -212,8 +212,10 @@ const Products = () => {
         </div>
         <div className="kabert__products-groupB ">
           <div className="kabert__products-vacuum m-1 p-4 mb-2 bg-gray-50 shadow-md shadow-emerald-900">
-            <h4 className="text-4xl font-bold">Vacuum Formed Shapes</h4>
-            <p>
+            <h4 className="text-2xl sm:text-4xl font-bold">
+              Vacuum Formed Shapes
+            </h4>
+            <p className="text-sm sm:text-lg">
               <br />
               Kabert Industries vacuum formed shapes are produced by dewatering
               a slurry of Fiberfrax Bulk Ceramic Fibers and special high
@@ -232,8 +234,8 @@ const Products = () => {
             {/* There will need to be tables and lists for the rest of the information provided here */}
           </div>
           <div className="kabert__products-bags m-1 p-4 mb-2 bg-gray-50 shadow-md shadow-emerald-900">
-            <h4 className="text-4xl font-bold">Mini Channel Bag</h4>
-            <p>
+            <h4 className="text-2xl sm:text-4xl font-bold">Mini Channel Bag</h4>
+            <p className="text-sm sm:text-lg">
               <br />
               An inexpensive and effective method of distributing molten
               aluminum to appropriate areas of the mold. Kabert Industries mini
@@ -250,8 +252,8 @@ const Products = () => {
             {/* There will need to be tables and lists for the rest of the information provided here */}
           </div>
           <div className="kabert__products-gaskets m-1 p-4 mb-2 bg-gray-50 shadow-md shadow-emerald-900">
-            <h4 className="text-4xl font-bold">Gaskets</h4>
-            <p>
+            <h4 className="text-2xl sm:text-4xl font-bold">Gaskets</h4>
+            <p className="text-sm sm:text-lg">
               <br />
               Gaskets are an inexpensive method of sealing and insulating
               troughs. Fiberglass insulation is die or hand cut to any
@@ -267,11 +269,11 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <h1 className="bg-gradient-to-r from-slate-700 to-emerald-500 text-transparent bg-clip-text text-5xl font-bold text-center mt-12 pb-3">
+      <h1 className="bg-gradient-to-r from-slate-700 to-emerald-500 text-transparent bg-clip-text text-3xl sm:text-5xl font-bold text-center mt-12 pb-3">
         Fiberglass Cloth Details
       </h1>
-      <div className="kabert__products-table flex items-center justify-center">
-        {/* Put this in an expandable thing, may not even be added as it is very confusing */}
+      <p className="sm:hidden text-center font-thin text-sm">(Swipe to view)</p>
+      <div className="kabert__products-table flex md:items-center md:justify-center overflow-auto ">
         <Table />
       </div>
     </div>

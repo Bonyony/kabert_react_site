@@ -11,7 +11,7 @@ const About = () => {
             Quality and Experience
             <div className="bg-emerald-600 h-2 w-64 md:w-72"></div>
           </h1>
-          <p className="text-md sm:text-xl text-slate-800 basis-2/3">
+          <p className="text-md sm:text-xl mx-2 text-slate-800 basis-2/3">
             Since 1960, Kabert Industries Inc. has been furnishing the aluminum
             industry with quality casting supplies. We continually strives to
             provide its customers with exceptional service. Our experienced
@@ -30,11 +30,11 @@ const About = () => {
           />
         </div>
         <div className="kabert__about-blurb2 flex flex-col lg:flex-row-reverse">
-          <h1 className="text-3xl sm:text-5xl font-bold text-emerald-800 m-2 basis-1/3">
+          <h1 className="text-3xl sm:text-5xl font-bold text-emerald-800 mx-2 mb-2 basis-1/3">
             It's What We Do
             <div className="bg-emerald-600 h-2 w-52"></div>
           </h1>
-          <p className="text-md sm:text-xl text-slate-800 basis-2/3">
+          <p className="text-md sm:text-xl mx-2 text-slate-800 basis-2/3">
             High-twist fiberglass cloth is woven, cut and sewn at our plant
             specifically for aluminum distribution and filtration. Other
             products available include gaskets, vacuum formed shapes, and
